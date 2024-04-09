@@ -1,0 +1,542 @@
+.forgot-main{
+    background-color: #eeeeee;
+    /* background-color: #fc8019; */
+    margin-top: 0;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-forgot{
+    background-color: #ffff;
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.verify{
+    text-align: center;
+    color:  #1a1a1a;
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.otp{
+    text-align: center;
+    color:  #1a1a1a;
+    margin-left: 10px; 
+    font-size: 23px;
+}
+
+
+.resend{
+    outline: none;
+    border: none;
+    transform: translateX(200px);
+    background-color: #fc8019;
+    height: 70px;
+    width: 200px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.header{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-left: 30px;
+    align-items: center; 
+    color:  #090909;
+    
+}
+
+.forgot-input{
+    display: flex;
+    justify-content:  center;
+    gap: 20px;
+}
+
+.forgot-input input{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+    outline: none;
+    /* background-color: #ded5d5; */
+}
+
+.forgot-main a{
+    text-decoration: underline;
+    color: blue;
+    margin-left: 10px;
+}
+
+.forgot-main a:hover{
+    color: rgb(44, 44, 241);
+}
+
+.form-final{
+    /* background-color: rgb(217, 145, 235); */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 300px;
+    width: 550px;
+    margin-left: 20px;
+    /* margin-top: 50px; */
+}
+
+.confirm-pass{
+    height: 500px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.confirm-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.confirm-header h1{
+    color: #1a1a1a;
+    text-transform: capitalize;
+}
+
+.confirm-pass p{
+    margin-left: 40px;
+    text-transform: capitalize;
+    /* margin-top: 20px; */
+}
+
+.pre-arrow{
+    color: #1a1a1a;
+}
+
+.reset-final{
+    background-color: #fc8019;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 150px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.confirm-pass-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.confirm-pass-inputs input{
+    height: 50px;
+    width: 90%;
+    outline: none;
+    border: 1px solid  #b3b3b3;
+    /* background: #e6e6e6; */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+/* 1024 pixels */
+
+@media screen and (max-width: 1024px) {
+    .main-forgot {
+        width: 980px;
+        height: 600px;
+    }
+
+    .header{
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .header h2{
+        font-size: 50px;
+    }
+
+    .pre-arrow{
+        font-size: 50px;
+    }
+
+    .verify{
+        margin-left: 0;
+        margin-right: 10px;
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    .forgot-input input{
+        width: 130px;
+        height: 130px;
+    }
+
+    .otp{
+        font-size: 30px;
+    }
+
+    .resend{
+        /* margin-left: 0; */
+        transform: translateX(400px);
+    }
+
+    .confirm-pass{
+        width: 350px;
+        /* height: 470px; */
+    }
+
+    .confirm-header{
+        margin-top: 0;
+    }
+
+    .confirm-pass p{
+        margin-top: 0;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .confirm-pass-inputs{
+        margin-top: 0;
+    }
+
+    .form-final{
+        margin-top: 0;
+    }
+
+    .reset-final{
+        margin-top: 40px;
+        transform: translateX(-75px);
+        padding: 0;
+    }
+}
+
+
+
+/* 768 pixels */
+
+@media screen and (max-width: 768px) {
+    
+    .main-forgot{
+        width: 750px;
+        height: 500px;
+    }
+    
+    .header{
+        margin-left: 30px;
+        gap: 5px;
+        font-size: 25px;
+    }
+
+    .pre-arrow{
+        font-size: 25px;
+        height: 105px;
+        /* width: 25px; */
+    }
+    
+    .verify{
+        text-align: center;
+        margin-top: 0;
+        font-size: 23px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .forgot-input input{
+        height: 100px;
+        width: 100px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .resend{
+        width: 200px;
+        height: 70px;
+        font-size: 23px;
+        transform: translateX(275px);
+    }
+
+    .otp{
+        font-size: 20px;
+    }
+    
+    .confirm-pass{
+        width: 750px;
+        height: 600px;
+    }
+    
+    .confirm-header{
+        margin-left: 10px;
+    }
+    
+    .confirm-header h1{
+        font-size: 25px;
+    }
+    
+    .confirm-pass p{
+        font-size: 25px;
+        text-align: justify;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    
+     .form-final{
+        width: 100%;
+        height: 400px;
+    } 
+    
+    .confirm-pass-inputs{
+        margin-left: 0;
+        font-size: 22px;
+    }
+
+    .confirm-pass-inputs input{
+        width: 90%;
+        font-size: 22px;
+    }
+    
+    .reset-final{
+        height: 70px;
+        width: 160px;
+        /* font-size: 16px; */
+        transform: translateX(100px);
+    }
+    
+    }
+
+    /* 425 pixels */
+
+    @media screen and (max-width: 425px) {
+
+        .main-forgot {
+            width: 390px;
+            /* height: 500px; */
+            
+        }
+
+        .header{
+            margin-left: 20px;
+            margin-top: 0;
+        }
+
+        .verify{
+            margin-left: 0;
+            margin-right: 10px;
+        }
+
+        .forgot-input input{
+            width: 60px;
+            height: 60px;
+        }
+
+        .resend{
+            /* margin-left: 0; */
+            transform: translateX(95px);
+        }
+
+        .confirm-pass{
+            width: 350px;
+            /* height: 470px; */
+        }
+
+        .confirm-header{
+            margin-top: 0;
+        }
+
+        .confirm-pass p{
+            margin-top: 0;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .confirm-pass-inputs{
+            margin-top: 0;
+        }
+
+        .form-final{
+            margin-top: 0;
+        }
+
+        .reset-final{
+            margin-top: 40px;
+            transform: translateX(-75px);
+            padding: 0;
+        }
+
+    }
+
+    /* 375 pixels */
+
+    @media screen and (max-width:375px) {
+
+        .main-forgot {
+            width: 350px;
+            /* height: 500px; */
+            
+        }
+
+        .header{
+            margin-left: 20px;
+            margin-top: 0;
+        }
+
+        .verify{
+            margin-left: 0;
+            margin-right: 10px;
+        }
+
+        .forgot-input input{
+            width: 60px;
+            height: 60px;
+        }
+
+        .resend{
+            /* margin-left: 0; */
+            transform: translateX(75px);
+        }
+
+        .confirm-pass{
+            width: 350px;
+            /* height: 470px; */
+        }
+
+        .confirm-header{
+            margin-top: 0;
+        }
+
+        .confirm-pass p{
+            margin-top: 0;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        .confirm-pass-inputs{
+            margin-top: 0;
+        }
+
+        .form-final{
+            margin-top: 0;
+        }
+
+        .reset-final{
+            margin-top: 40px;
+            transform: translateX(-75px);
+            padding: 0;
+        }
+
+        
+        
+    }
+
+/* 320 pixels */
+
+    @media screen and (max-width: 320px) {
+    
+        .main-forgot{
+            width: 280px;
+            height: 400px;
+        }
+        
+        .header{
+            margin-left: 10px;
+            gap: 5px;
+            margin-top: 0;
+        }
+        
+        .verify{
+            text-align: justify;
+            margin-right: 20px;
+            margin-left: 10px;
+            margin-top: 0;
+            font-size: 16px;
+        }
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+
+        .forgot-input input{
+            height: 45px;
+            width: 45px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .otp{
+            font-size: 17px;
+        }
+        
+        .resend{
+            transform: translateX(60px);
+            width: 150px;
+            height: 50px;
+        }
+        
+        .confirm-pass{
+            width: 280px;
+            height: 500px;
+        }
+        
+        .confirm-header{
+            margin-left: 10px;
+            margin-top: 0;
+        }
+        
+        .confirm-header h1{
+            font-size: 22px;
+        }
+        
+        .confirm-pass p{
+            font-size: 15px;
+            text-align: justify;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 0;
+        }
+        
+        .form-final{
+            width: 280px;
+            height: 400px;
+        }
+        
+        .confirm-pass-inputs{
+            margin-left: 0;
+            margin-right: 15px;
+        }
+        
+        .reset-final{
+            height: 50px;
+            width: 160px;
+            transform: translateX(-120px);
+        }
+        
+        }
